@@ -1,0 +1,26 @@
+<!--adding display: flex makes an element a flex container, which means its children can be aligned in
+  a column or row. you can do this by adding flex-direction. here i added a row and made it reverse.-->
+
+<style>
+  #box-container {
+    display: flex;
+    height: 500px;
+    flex-direction: row-reverse;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 50%;
+    height: 50%;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 50%;
+    height: 50%;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
